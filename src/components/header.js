@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Navigation from './navigation';
+
 // styles
 const headerStyles = {
 	border: "1px solid red",
@@ -12,6 +14,7 @@ const Header = ({ someNode }) => {
 	return (
 		<header style={headerStyles}>
 			<h1>HEADER IS_WORKING</h1>
+			<Navigation/>
 		</header>
 	);
 };
